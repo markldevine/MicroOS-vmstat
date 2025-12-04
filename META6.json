@@ -1,0 +1,19 @@
+{
+  "auth": "zef:markldevine",
+  "authors": [ "Mark Devine <mark@markdevine.com>" ],
+  "depends": [],
+  "description": "MicroOS vmstat Interface",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "MicroOS::vmstat",
+  "perl": "6.*",
+  "provides": {
+    "MicroOS::vmstat::record": "lib/MicroOS/vmstat/record.rakumod"
+  },
+  "resources": [],
+  "source-url": "https://github.com/markldevine/MicroOS-vmstat.git",
+  "tags": [
+    "MicroOS", "COMMAND"
+  ],
+  "version": "0.0.1"
+}
