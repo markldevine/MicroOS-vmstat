@@ -88,8 +88,7 @@ method marshal {
 }
 
 method unmarshal (:$json!) {
-#   self        = unmarshal($json);
-    ;
+    self        = unmarshal($json, self.^name);
 }
 
 =finish
